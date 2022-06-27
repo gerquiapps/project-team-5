@@ -1,0 +1,9 @@
+.rhap_container {
+    width     : 48vw !important;
+    background: #212529 !important;
+    border    : none !important;
+}
+
+.rhap_time {
+    color: rgb(204, 204, 204) !important;
+}

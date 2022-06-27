@@ -1,0 +1,531 @@
+[
+    {
+        "artist": "Linkin Park",
+        "genres": [
+            "Nu metal",
+            "Rock alternativo",
+            "Rap metal",
+            "Metal alternativo",
+            "Heavy metal",
+            "Rock electrónico",
+            "Pop"
+        ],
+        "discography": [
+            {
+                "number": 1,
+                "cover_file": "",
+                "title": "Hybrid Theory",
+                "date": "2000-10-24",
+                "trakcs": 12,
+                "record_company": "Warner Bros.",
+                "tracks": [
+                    {
+                        "title": "Papercut",
+                        "number": 1,
+                        "duration": "3:05",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "One Step Closer",
+                        "number": 2,
+                        "duration": "2:35",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "With You (Dust Brothers)",
+                        "number": 3,
+                        "duration": "3:05",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Points of Authority",
+                        "number": 4,
+                        "duration": "3:20",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Crawling",
+                        "number": 5,
+                        "duration": "3:29",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Runaway",
+                        "number": 6,
+                        "duration": "3:04",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "By Myself",
+                        "number": 7,
+                        "duration": "3:10",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "In the End",
+                        "number": 8,
+                        "duration": "3:36",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "A Place for My Head (Dave Farrell)",
+                        "number": 9,
+                        "duration": "3:04",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Forgotten (Dave Farrell)",
+                        "number": 10,
+                        "duration": "3:14",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Cure for the Itch",
+                        "number": 11,
+                        "duration": "2:37",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Pushing Me Away",
+                        "number": 12,
+                        "duration": "3:11",
+                        "file_location": ""
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "cover_file": "",
+                "title": "Meteora",
+                "date": "2003-03-25",
+                "trakcs": 13,
+                "record_company": "Warner Bros.",
+                "tracks": [
+                    {
+                        "title": "Foreword",
+                        "number": 1,
+                        "duration": "0:13",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Don't Stay",
+                        "number": 2,
+                        "duration": "3:07",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Somewhere I Belong",
+                        "number": 3,
+                        "duration": "3:33",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Lying from You",
+                        "number": 4,
+                        "duration": "2:55",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Hit the Floor",
+                        "number": 5,
+                        "duration": "2:44",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Easier to Run",
+                        "number": 6,
+                        "duration": "3:24",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Faint",
+                        "number": 7,
+                        "duration": "2:42",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Figure.09",
+                        "number": 8,
+                        "duration": "3:17",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Breaking the Habit",
+                        "number": 9,
+                        "duration": "3:16",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "From the Inside",
+                        "number": 10,
+                        "duration": "2:53",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Nobody's Listening",
+                        "number": 11,
+                        "duration": "2:58",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Session",
+                        "number": 12,
+                        "duration": "2.23",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Numb",
+                        "number": 13,
+                        "duration": "3:08",
+                        "file_location": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "Architects",
+        "genres": [
+            "Hardcore melódico",
+            "Mathcore (inicios)",
+            "Metalcore",
+            "Metal alternativo",
+            "Metal progresivo",
+            "Metal sinfonico",
+            "Nu metal",
+            "Post-hardcore"
+        ],
+        "discography": [
+            {
+                "number": 1,
+                "cover_file": "",
+                "title": "Nightmares",
+                "date": "2006-05-15",
+                "trakcs": 8,
+                "record_company": "In at the Deep End, Distort",
+                "tracks": [
+                    {
+                        "title": "To the Death",
+                        "number": 1,
+                        "duration": "2:41",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "You Don't Walk Away from Dismemberment",
+                        "number": 2,
+                        "duration": "4:58",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Minesweeper",
+                        "number": 3,
+                        "duration": "3:32",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "They'll Be Hanging Us Tonight",
+                        "number": 4,
+                        "duration": "3:31",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "This Confession Means Nothing",
+                        "number": 5,
+                        "duration": "3:29",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "In the Desert",
+                        "number": 6,
+                        "duration": "4:05",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "A Portrait for the Deceased",
+                        "number": 7,
+                        "duration": "4:23",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "The Darkest Tomb",
+                        "number": 8,
+                        "duration": "3:42",
+                        "file_location": ""
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "cover_file": "",
+                "title": "Ruin",
+                "date": "2007-04-01",
+                "trakcs": 12,
+                "record_company": "Outhouse Studios",
+                "tracks": [
+                    {
+                        "title": "Buried at Sea",
+                        "number": 1,
+                        "duration": "3:42",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Hunt Them Down",
+                        "number": 2,
+                        "duration": "3:18",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "You'll Find Safety",
+                        "number": 3,
+                        "duration": "3:33",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Always",
+                        "number": 4,
+                        "duration": "4:11",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Sail This Ship Alone",
+                        "number": 5,
+                        "duration": "1:55",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Heartless",
+                        "number": 6,
+                        "duration": "4:28",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "North Lane",
+                        "number": 7,
+                        "duration": "3:15",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "I Can't See the Light",
+                        "number": 8,
+                        "duration": "4:23",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Low",
+                        "number": 9,
+                        "duration": "2:23",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Running from the Sun",
+                        "number": 10,
+                        "duration": "3:43",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Save Me",
+                        "number": 11,
+                        "duration": "4:27",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Broken Clocks",
+                        "number": 12,
+                        "duration": "3:42",
+                        "file_location": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "artist": "We Came as Romans",
+        "genres": [
+            "Post-hardcore",
+            "Metalcore",
+            "Screamo",
+            "Metal sinfónico",
+            "Metal alternativo",
+            "Nu metal",
+            "Electronicore"
+        ],
+        "discography": [
+            {
+                "number": 1,
+                "cover_file": "",
+                "title": "To Plant a Seed",
+                "date": "2009-11-03",
+                "trakcs": 11,
+                "record_company": "Equal Vision",
+                "tracks": [
+                    {
+                        "title": "To Plant a Seed",
+                        "number": 1,
+                        "duration": "3:51",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Broken Statues",
+                        "number": 2,
+                        "duration": "3:41",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Intentions",
+                        "number": 3,
+                        "duration": "3:01",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Roads That Don't End and Views That Never Cease",
+                        "number": 4,
+                        "duration": "3:49",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Dreams",
+                        "number": 5,
+                        "duration": "4:15",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "We Are the Reasons",
+                        "number": 6,
+                        "duration": "3:43",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Beliefs",
+                        "number": 7,
+                        "duration": "4:06",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "I Will Not Reap Destruction",
+                        "number": 8,
+                        "duration": "3:58",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Searching, Seeking, Reaching, Always",
+                        "number": 9,
+                        "duration": "2:56",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "An Ever-Growing Wonder",
+                        "number": 10,
+                        "duration": "3:57",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "To Move On Is to Grow",
+                        "number": 11,
+                        "duration": "3:47",
+                        "file_location": ""
+                    }
+                ]
+            },
+            {
+                "number": 2,
+                "cover_file": "",
+                "title": "Understanding What We've Grown to Be",
+                "date": "2011-09-13",
+                "trakcs": 15,
+                "record_company": "Equal Vision",
+                "tracks": [
+                    {
+                        "title": "Hope",
+                        "number": 1,
+                        "duration": "4:10",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "The King of Silence",
+                        "number": 2,
+                        "duration": "4:36",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Let These Words Last Forever",
+                        "number": 3,
+                        "duration": "3:42",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Mis-Understanding",
+                        "number": 4,
+                        "duration": "3:39",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Everything as Planned",
+                        "number": 5,
+                        "duration": "4:01",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "What I Wished I Never Had",
+                        "number": 6,
+                        "duration": "3:35",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Cast the First Stone",
+                        "number": 7,
+                        "duration": "3:44",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "The Way That We Have Been",
+                        "number": 8,
+                        "duration": "5:21",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "A War Inside",
+                        "number": 9,
+                        "duration": "2:23",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Stay Inspired",
+                        "number": 10,
+                        "duration": "3:34",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Just Keep Breathing",
+                        "number": 11,
+                        "duration": "4:00",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Views That Never Cease, to Keep Me from Myself",
+                        "number": 12,
+                        "duration": "3:48",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "What My Heart Held",
+                        "number": 13,
+                        "duration": "4:06",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "I Can't Make Your Decisions for You",
+                        "number": 14,
+                        "duration": "3:43",
+                        "file_location": ""
+                    },
+                    {
+                        "title": "Understanding What We've Grown to Be",
+                        "number": 15,
+                        "duration": "4:15",
+                        "file_location": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

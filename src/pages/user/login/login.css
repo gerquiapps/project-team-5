@@ -1,0 +1,14 @@
+#login-form {
+    width    : 40%;
+    min-width: 480px !important;
+}
+
+#login-btn {
+    width: 120px !important;
+}
+
+#forget-passwd {
+    cursor   : pointer;
+    font-size: medium;
+    color    : #5af1a8;
+}
