@@ -1,29 +1,39 @@
+function getEnvironment() {
+    if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
+        console.log('Corriendo en debug');
+        return 'http://localhost:4000';
+    } else {
+        return 'https://team5-22013-backend.herokuapp.com';
+    }
+
+}
+
 export const config = {
     signup: {
-        url: 'http://localhost:4000/user/signup',
+        url: getEnvironment() + '/user/signup',
         method: 'POST'
     },
     login: {
-        url: 'http://localhost:4000/user/login',
+        url: getEnvironment() + '/user/login',
         method: 'POST'
     },
     verifyEmail: {
-        url: 'http://localhost:4000/user/verifyEmail',
+        url: getEnvironment() + '/user/verifyEmail',
         method: 'GET'
     },
     changePassword: {
-        url: 'http://localhost:4000/user/changePassword',
+        url: getEnvironment() + '/user/changePassword',
         method: 'PUT'
     },
 }
 
 export const collectionConfig = {
     getCollection: {
-        url: 'http://localhost:4000/collection',
+        url: getEnvironment() + '/collection',
         method: 'GET'
     },
     searchBy: {
-        url: 'http://localhost:4000/collection/searchBy',
+        url: getEnvironment() + '/collection/searchBy',
         method: 'GET'
     },
 }
