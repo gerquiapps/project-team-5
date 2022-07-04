@@ -1,12 +1,4 @@
-# A Spotify Clon3 - Spoteam5
-
-# Features
-
-+Spotify Authentication.\ 
-+Spotify API.\ 
-+Context API.\ 
-+Responsive Design.\
----
+# Proyecto inspirado en Soptify 
 
 # Create React App
 
@@ -75,3 +67,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# tasques
+
+* Crear un proyecto de React. [OK]
+* Definir un archivo info.md que describa de que se trata el proyecto.  (ejemplos, spotify, netflix, recodatorio de clases, juego... etc..) [OK]
+* Definir un componente que sea perfil de usuario... [OK]
+* Si pudieron hacer el componente perfil de usuario ahora tienen que hacer el componente Login... [OK]
+* Agregar un boton al componente para que cuando se presione, este tragia un nuevo usuario desde https://jsonplaceholder.typicode.com/ [X]
+* Crear componente que sirva para Registro de usuario. [OK]
+* Crear componente para reinicio de contraseña. [OK]
+* Crear un componente que permita una navegacion dentro de la aplicacion. [OK]
+* Incoporar (opcionalmente) Bootstrap en el proyecto. [OK]
+* Incorporar archivo de lenguajes. [X]
+* Colocar los items en la barra de navegacion (segun Proyecto Netflix). [OK]
+* Crear un componente, MediaCard. [OK]
+* Crear un componente para el 404 y capturarlo. [OK]
+* Crear un componente de control de Login [OK]
+* Usen un evento para que la media card se agrande cuando pase el mouse por arriba. [X]
+* Crear un proyecto y una app en firebase. [OK]
+* Configurar la app de React con firebase [OK]
+* Van a seleccionar un provider (Google/Microsoft/Facebook/Apple) [OK]
+* Van a crear usuarios con email/password [OK]
+* Van incorporar el boton del provider. (ver docu de firebase) [OK]
+* Van a darle funcionalidad a Create account/reset password para los componentes creados previamente. [OK]
+* Crear un documento en firestore y cargarlo... [OK]
+* Crear el social login para Facebook, Twitter y Microsoft. [X]
+* Conectar el componente movies al backend de firebase con la coleccion movies. [OK] (music)
