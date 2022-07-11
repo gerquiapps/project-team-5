@@ -1,6 +1,6 @@
 function getEnvironment() {
     if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
-        console.log('Corriendo en debug');
+        // console.log('Corriendo en debug');
         return 'http://localhost:4000';
     } else {
         return 'https://team5-22013-backend.herokuapp.com';

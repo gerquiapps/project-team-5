@@ -1,1 +1,1 @@
-Proyecto de app tipo Netflix
+Proyecto de app tipo Spotify

@@ -1,7 +1,22 @@
 .tracks-list {
     margin-top: 20px !important;
+    width     : 60vw;
+    min-width : 360px !important;
 }
 
 .track-item {
-    cursor: pointer;
+    cursor          : pointer;
+    background-color: #aaaaaf !important;
+    color           : rgb(0, 0, 0) !important;
+}
+
+.track-item-selected {
+    cursor          : pointer;
+    background-color: #70707c !important;
+    color           : rgb(0, 0, 0) !important;
+}
+
+.playing-equalizer {
+    position: absolute;
+    right   : 100px !important;
 }

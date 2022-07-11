@@ -2,7 +2,10 @@ body {
     overflow-x: hidden;
 }
 
-/* Toggle Styles */
+
+#app-name {
+    margin-top: 100px !important
+}
 
 #wrapper {
     padding-left      : 0;

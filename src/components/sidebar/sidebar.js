@@ -21,7 +21,7 @@ export default class SideBar extends React.Component {
 
         this.unsubscribeStore = store.subscribe(() => {
             let currentThemeState = store.getState().theme;
-            if (this.state.hide != currentThemeState.hideSidebar) {
+            if (this.state.hide !== currentThemeState.hideSidebar) {
                 this.setState(prevState => {
                     return { ...prevState, hide: currentThemeState.hideSidebar }
                 })
@@ -41,7 +41,11 @@ export default class SideBar extends React.Component {
             return (
                 <>
                     <div id="sidebar-wrapper">
+                        <h4 id="app-name">SpotTeamFive</h4>
                         <ul className="sidebar-nav" style={{ marginLeft: '0' }}>
+                            {/* <li>
+                                <a href="#"><i className="fa fa-sort-alpha-asc " aria-hidden="true"> </i> <span style={{ marginLeft: '10px' }}>SpotTeamFive</span>  </a>
+                            </li> */}
                             <li>
                                 <a href="#"><i className="fa fa-sort-alpha-asc " aria-hidden="true"> </i> <span style={{ marginLeft: '10px' }}>Favoritos</span>  </a>
                             </li>

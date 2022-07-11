@@ -25,6 +25,7 @@ import Recovery from './pages/user/recovery/recovery';
 import HomePage from './pages/homepage/homepage';
 import NotFound from './pages/errorPages/notFound';
 import Artist from './pages/collection/artist/artist';
+import Player from './components/player/player';
 
 
 function App() {
@@ -32,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <Topbar />
-
+      <Player></Player>
       <header className="App-header">
         <Routes>
           <Route path="/" element={<HomePage />} />

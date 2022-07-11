@@ -87,20 +87,6 @@ export default class HomePage extends React.Component {
                 }
             }
 
-            // // artista o disco seleccionado
-            // if (playerStored && this.state.player != playerStored) {
-            //     if (playerStored.artist != this.state.player.artist) {
-            //         this.setState({ player: playerStored, showDiscsGrid: true, showArtistsGrid: false });
-            //         console.log("playerStored artist change");
-
-            //     }
-            //     if (playerStored.currentDisc != this.state.currentDisc) {
-            //         this.setState({ player: playerStored, showTracksList: true, showDiscsGrid: false, showArtistsGrid: false });
-            //         console.log("playerStored current disc change");
-            //     }
-
-            // }
-
         });
 
     }

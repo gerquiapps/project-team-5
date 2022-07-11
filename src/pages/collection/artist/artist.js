@@ -1,14 +1,12 @@
 import React from "react";
 import store from "../../../state/store";
-import { setCurrentDisc } from "../../../state/actions/player.actions";
 import './artist.css';
 import Grid from "../../../components/grid/grid";
 import SideBar from "../../../components/sidebar/sidebar";
 import TracksList from '../../../components/trackslist/trackslist';
-import Player from "../../../components/player/player";
 
 import LocalStorageUserService from "../../../services/localStorageUser.service";
-import { Navigate } from "react-router";
+import { Navigate, useLocation } from "react-router-dom";
 
 
 export default class Artist extends React.Component {
@@ -39,7 +37,22 @@ export default class Artist extends React.Component {
         }
 
         let playerStored = store.getState().player;
-        this.setState({ player: playerStored });
+        this.setState(prevState => {
+            return { ...prevState, player: playerStored }
+        }, () => {
+            console.log('seteo de disco')
+            console.log(playerStored.currentDisc);
+            console.log(this.state.currentDisc);
+            let currentDiscIsFromArtistSelected = playerStored.discography.filter(disc => disc.title == playerStored.currentDisc.title)
+            if (currentDiscIsFromArtistSelected.length) {
+                console.log(currentDiscIsFromArtistSelected);
+                this.setDiscSelected(null, playerStored.currentDisc)
+            }
+            else {
+                this.setState(prevState => { return { ...prevState, currentDisc: null, showTracksList: false } })
+            }
+        });
+
 
         this.unsuscribeStore = store.subscribe(() => {
             playerStored = store.getState().player;
@@ -49,23 +62,20 @@ export default class Artist extends React.Component {
                 return;
             }
 
-            if (playerStored.currentDisc !== this.state.currentDisc) {
+            if (playerStored.currentDisc) {
                 this.setState(prevState => {
                     return {
                         ...prevState, showTracksList: false
                     }
                 }, () => {
-                    //console.log('cambio de disco')
-                    //console.log(playerStored.currentDisc);
-                    //console.log(this.state.currentDisc);
-                    this.setState(prevState => {
-                        return {
-                            ...prevState, currentDisc: playerStored.currentDisc, showTracksList: true
-                        }
-                    });
+                    console.log('cambio de disco')
+                    console.log(playerStored.currentDisc);
+                    console.log(this.state.currentDisc);
+
+                    this.setDiscSelected(null, playerStored.currentDisc)
+
                 });
 
-                // this.setState({ currentDisc: playerStored.currentDisc, showTracksList: true })
             }
         })
 
@@ -75,11 +85,25 @@ export default class Artist extends React.Component {
     }
 
     setDiscSelected(e, item) {
-        e.preventDefault();
+        if (e) e.preventDefault();
         let currentDisc = item;
-        store.dispatch(setCurrentDisc(currentDisc));
-        // //console.log(item)
-        this.setState({ currentDisc: item, showPlayer: true });
+        // // store.dispatch(setCurrentDisc(currentDisc));
+        console.log(item)
+        // this.setState({ currentDisc: item, showPlayer: true });
+        this.setState(prevState => {
+            return {
+                ...prevState, showTracksList: false
+            }
+        }, () => {
+            //console.log('cambio de disco')
+            //console.log(playerStored.currentDisc);
+            //console.log(this.state.currentDisc);
+            this.setState(prevState => {
+                return {
+                    ...prevState, currentDisc: currentDisc, showTracksList: true
+                }
+            });
+        });
     }
 
 
@@ -92,11 +116,11 @@ export default class Artist extends React.Component {
                     {this.state.player != null ?
                         <>
                             <div className="container artist">
-                                <h2 className="mb-4">Estás viendo discos de {this.state.player.artist}</h2>
-                                <Grid items={this.state.player.discography} action={this.setDiscSelected}></Grid>
-                                {this.state.showTracksList ? <TracksList tracks={this.state.currentDisc.tracks}></TracksList> : null}
+                                <h1 className="mb-4"><strong>{this.state.player.artist}</strong></h1>
+                                <Grid items={this.state.player.discography} action={this.setDiscSelected} selected={this.state.currentDisc}></Grid>
+                                {this.state.showTracksList ? <TracksList currentDisc={this.state.currentDisc}></TracksList> : null}
                             </div>
-                            {this.state.showPlayer ? <Player></Player> : null}
+                            {/* {this.state.showPlayer ? <Player></Player> : null} */}
                         </> : null}
                 </>
             );

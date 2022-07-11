@@ -20,16 +20,17 @@ export default class Card extends React.Component {
     }
 
     render() {
-        // //console.log('card render');
+        console.log('card render', this.props.item.renderProps.class);
+        const cardClassName = this.props.item.renderProps.class ?? 'card generic-card'
         return (
 
-            <div className="card generic-card">
+            <div className={cardClassName}>
                 {this.state.img ? <img className="card-img-top" src={this.state.img} alt="Card image cap" /> : null}
-                <div className="card-body">
+                < div className="card-body" >
                     <h5 className="card-title">{this.state.title}</h5>
                     <p className="card-text">{this.state.text}</p>
-                </div>
-            </div>
+                </div >
+            </div >
 
         );
     }
